@@ -1,0 +1,54 @@
+baseURL = "https://titikmula.xyz/"
+languageCode = "en-us"
+title = "titikmula"
+theme = "mediumish-gohugo-theme"
+summaryLength = 25
+copyright = "Titikmula"
+enableEmoji = true
+publishDir = "docs"
+#disqusShortname = "your-shortname-here"
+#googleAnalytics = "UA-1XXXXXXX1-1"
+
+[params]
+  logo = "/images/logo.png"
+  description ="the clean blog!"
+  #mailchimp = "you can provide a mailchimp-link here"
+
+[params.author]
+  name = "Titik Mula"
+  thumbnail = "/images/author.png"
+  description = "Taman Baca - Ruang Bersama - Ruang Kreatif"
+
+[params.index]
+  picture = "/images/author.png"
+  title = "Titik Mula"
+  subtitle = "Welcome to this blog"
+  mdtext = '''
+----
+'''
+  alertbar = false
+
+[params.social]
+  github = "<username>"
+  linkedin = "<username>"
+  xing = "<username>"
+  medium = "<username>"
+  twitter = "<username>"
+  instagram = "<username>"
+
+## Main Menu
+[[menu.main]]
+    name = "Blog"
+    weight = 100
+    identifier = "blog"
+    url = "/blog"
+[[menu.main]]
+    name = "About Me"
+    identifier = "about"
+    weight = 200
+    url = "/"
+[[menu.main]]
+    name = "Imprint"
+    identifier = "imprint"
+    weight = 200
+    url = "/static/imprint"
